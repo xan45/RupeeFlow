@@ -1,0 +1,27 @@
+# Gradle & Android Build Outputs
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# Local Configuration & SDK
+local.properties
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Signing Keystores & Passwords (Keep secure in CI/CD)
+*.jks
+*.keystore
+keystore.properties
+
+# Kotlin & JVM
+.kotlin/
+*.class
+
+# Node / Capacitor Legacy
+node_modules/
+dist/
+.env
